@@ -1,0 +1,27 @@
+{
+  "name": "instatest",
+  "version": "0.2.3",
+  "description": "Super lightweight framework for instantaneous unit testing",
+  "main": "./src/index.mjs",
+  "type": "module",
+  "scripts": {
+    "test": "node ./src/cli.mjs src/cli_tools.mjs src/index.mjs"
+  },
+  "config": {
+    "instatest": {
+      "lockdown": true
+    }
+  },
+  "bin": {
+    "instatest": "./src/cli.mjs"
+  },
+  "engines": {
+    "npm": ">=8.11.0",
+    "node": ">=16.15.1"
+  },
+  "author": "Steven Obua",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18.0.1"
+  }
+}
