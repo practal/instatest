@@ -21,6 +21,8 @@
   },
   "author": "Steven Obua",
   "license": "MIT",
+  "repository": "github:practal/instatest",
+  "bugs": "https://github.com/practal/instatest/issues",
   "devDependencies": {
     "@types/node": "^18.0.1"
   }
