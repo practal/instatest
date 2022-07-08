@@ -1,6 +1,6 @@
 {
   "name": "instatest",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "description": "Super lightweight framework for instantaneous unit testing",
   "main": "./src/index.mjs",
   "type": "module",
