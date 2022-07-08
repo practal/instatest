@@ -441,5 +441,9 @@ export function lockdown() {
   lockFunc(lockClass);
   lockFunc(lockFunc);
   lockFunc(lockdown);
+  lockFunc(eq);
+  lockFunc(beginUnit);
+  lockFunc(endUnit);
+  lockFunc(currentUnit);
 }
 
