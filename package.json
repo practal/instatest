@@ -4,6 +4,7 @@
   "description": "Super lightweight framework for instantaneous unit testing",
   "main": "./src/index.mjs",
   "type": "module",
+  "types": "./dist/index.d.mts",
   "scripts": {
     "test": "node ./src/cli.mjs src/cli_tools.mjs src/index.mjs"
   },

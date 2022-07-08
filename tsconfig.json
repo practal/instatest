@@ -4,10 +4,11 @@
       "target": "ESNext",
       "allowJs": true,
       "checkJs": true,
-      "noEmit": true, 
-      "strict": true
+      "declaration": true,
+      "emitDeclarationOnly": true,
+      "declarationMap": true,
+      "strict": true, 
+      "outDir": "dist"
     },
-    "exclude": [
-      "node_modules"
-    ]
+    "include": ["src/**/*"],
 }
